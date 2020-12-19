@@ -1,8 +1,5 @@
 class CommentsController < ApplicationController
   before_action :authenticate_user!
-  user_signed_in?
-  current_user
-  user_session
   before_action :set_comment, only: [:show, :edit, :update, :destroy]
 
   # GET /comments
