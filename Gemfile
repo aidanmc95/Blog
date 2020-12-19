@@ -50,3 +50,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Mongodb
 gem 'mongoid', '~> 7.0.5'
+
+# Device authentication
+gem 'devise'
